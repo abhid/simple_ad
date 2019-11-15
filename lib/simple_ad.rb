@@ -28,6 +28,11 @@ module SimpleAD
         return nil
     end
 
+    def member_of?(group)
+      # TODO: Implement the member_of function to test against AD group membership
+      raise NotImplementedError
+    end
+
     private
     def initialize(ad_entry)
       # Add all the attributes as methods
